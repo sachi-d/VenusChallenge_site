@@ -1,0 +1,802 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: Arial, Verdana, Helvetica, sans-serif; 
+    font-size: 14px; 
+    line-height: 25px;
+    color:#fff; 
+    text-align: justify;
+    /*background:url('../images/black_back_crop.png') repeat top center;*/
+
+}
+
+
+#background{
+    background: url("../images/header4.png");
+    margin:0;
+    padding:0;
+    background-position: center top;
+    background-repeat:no-repeat;
+    background-color: black;
+}
+
+
+#page #header{
+
+    height:226px;
+    margin:0 auto;
+    width:960px;
+}
+
+#page #header .header{
+    height:226px;
+}	 
+
+#page #header .header a#logo{
+    /*position:relative;*/
+    top:45px;
+    text-decoration:none;
+}
+
+#page #header .header a#logo img{
+    border:0;
+}
+
+#page #header .header div.slogan{
+    width:685px;
+    margin-left:275px;
+    height:135px;
+    margin-top:-120px;
+    text-align:center;
+    color:#02eaf1;
+}
+
+#page #header .header div.slogan h2{
+    height:45px;
+    width:460px;
+    background-color:#6f05a4;
+    font-weight:normal;
+    margin:0 auto;
+    padding:0;
+    line-height:45px;
+    font-size:40px;
+    font-family:lithos pro;
+    color:#ffffff;
+
+
+}
+
+#page #header .header div.slogan h2 span{
+    font-weight:bold;
+    color:#ffffff;
+    font-size:25px;
+    font-family:Helvetica;
+}
+
+#page #header .header div.slogan h3{
+    height:45px;
+    width:182px;
+    background-color:#fd006d;
+    color:#ffffff;
+    font-weight:normal;
+    font-style:italic;
+    padding:0;
+    margin:5px 0 0 30px;
+    line-height:45px;
+    float:left;
+    font-size:25px;
+    font-family:Helvetica;
+}
+
+#page #header .header div.slogan h4{
+    margin:5px 0 0 0;
+    padding:0;
+    width:400px;
+    height:45px;
+    line-height:45px;
+    float:left;
+    font-size:25px;
+    font-family:Helvetica;
+}
+
+#page #header .header div.slogan h4 span{
+    font-weight:bold;
+    color:#04efed;
+    font-style:italic;
+    font-size:25px;
+    font-family:Helvetica;
+}
+
+
+#page #body{
+    width:1050px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+/***********Start of Sidebar Style*******************/
+
+#sidebar{
+    width:230px;
+    float:left;
+    margin:250px 0 0 0;
+}
+
+#sidebar ul.navigation{
+    /*list-style-type:none;*/
+    margin:125px 0 0 0;
+    padding:0;
+}
+
+ul.navigation li{
+    width:230px;
+    padding: 10px  0;
+    margin-top:-7px;
+    height:auto;
+}
+
+#sidebar ul.navigation li a{
+    text-decoration:none;
+    padding: 10px  10px 10px  10px;
+    /*background-color:#232323;*/
+    color:#ffffff;
+    font-size:17px;
+    width:200px;
+    height:auto;
+    font-family:Helvetica;
+
+}
+
+#sidebar ul.navigation li a:hover{
+    background-color:#fcf100;
+    color:#b83359;
+    position:relative;
+    z-index:20;
+}
+
+
+#sidebar ul.navigation li a.active{
+    background-color:#fcf100;
+    color:#b83359;
+    position:relative;
+    z-index:900;
+}
+
+
+
+#sidebar .connect{
+    width:100px;
+    height:65px;
+    background-color:#242424;
+    text-align:center;
+}
+
+#sidebar .connect span{
+    font-style:italic;
+    display:block;
+    color:#4d4d4d;
+    margin:5px 0;
+    padding-top:5px;
+}
+
+#sidebar .connect a{
+    text-decoration:none;
+}
+#sidebar .connect a.facebook{
+    display:inline-block;
+    background: url("../images/icon.gif"); 
+    background-position: 0 0; width: 20px; height: 19px;
+    background-repeat:no-repeat;   
+    width:20px;
+    height:19px;
+}
+#sidebar .connect a.facebook:hover{
+    opacity:0.4;
+    filter:alpha(opacity=40);
+
+}
+
+#sidebar .connect a.twitter{
+    display:inline-block;
+    background: url("../images/icon.gif"); 
+    background-position: 0 -69px; width: 27px; height: 19px;
+    background-repeat:no-repeat;   
+    width:27px;
+    height:19px;
+}
+
+#sidebar .connect a.twitter:hover{
+    opacity:0.4;
+    filter:alpha(opacity=40);
+}
+
+/***********End of Sidebar Style*******************/
+
+
+#page #body #content{
+    width:790px;
+    float:left;
+    overflow:hidden;
+}
+
+
+/************* Start of Featured ********************/
+#page #body #content ul#featured {
+    list-style-type:none;
+    margin:300px 0 0 0;
+    padding:0;  
+
+}
+/*************** Start of pink page=home ***************************/
+
+#page #body #content ul#featured li.pink{
+    background: url("../images/pink-body.png");
+    background-position: right;
+    background-repeat:no-repeat;   
+    width:790px;
+    height:578px;
+    list-style-type:none;
+    color:black;
+}
+
+
+
+
+#page #body #content ul#featured li.pink h2{
+    margin:20px 0 0 0;
+    padding:90px 0 10px 60px;
+    color:#38fd00;
+    font-size:48px;
+    font-family: Arial;
+}
+#page #body #content ul#featured li.pink h2 a{
+
+    color:#38fd00;
+    font-size:48px;
+    font-family: Arial;
+    text-decoration:none;
+}
+#page #body #content ul#featured li.pink h2 a img{
+    border:0;
+}
+
+#page #body #content ul#featured li.pink p{
+    margin:20px 0 0 60px;
+    padding:0;
+    width:325px;
+    font-family: helvetica;
+    font-size:16px;
+}
+#page #body #content ul#featured li.pink p a{
+    color:#ffffff;
+}
+#page #body #content ul#featured li.pink p a:hover{
+    color:#d065a9;
+}
+
+#page #body #content ul#featured li.pink ul{
+    list-style-type:none;
+    margin:20px 0 0 60px;
+    padding:0;
+}
+
+#page #body #content ul#featured li.pink ul li{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background:none;
+    height:40px;
+    width:227px;
+} 
+
+
+#page #body #content ul#featured li.pink ul li a{
+    display:block;
+    text-decoration:none;
+    background: url("../images/pink.gif");
+    width: 227px; height: 40px;
+    background-repeat:no-repeat; 
+
+    padding: 0 0 0 50px;
+    line-height:40px;
+    color:#ffffff;
+}
+#page #body #content ul#featured li.pink ul li a:hover{
+    text-decoration:none;
+    background: url("../images/pink-hover.gif");
+    width: 227px; height: 40px;
+    background-repeat:no-repeat; 
+    color:#d065a9;
+}
+
+#page #body #content ul#featured li.pink ul li.first{
+    position:relative;
+    left:15px;
+}
+
+#page #body #content ul#featured li.pink ul li.second{
+    position:relative;
+    left:30px;   
+}
+
+#page #body #content ul#featured li.pink ul li.third{
+    position:relative;
+    left:45px;
+}
+
+#page #body #content ul#featured li.pink ul li.last{
+    position:relative;
+    left:45px;
+}
+
+
+
+
+#page #body #content ul.featured {
+    list-style-type:none;
+    margin:0;
+    padding:0;  
+
+}
+
+#page #body #content ul.featured li.pink{
+    background: url("../images/pink-body.png");
+    background-position: center; 
+    background-repeat:no-repeat;   
+    width:790px;
+    height:578px;
+    list-style-type:none;
+}
+
+/*************** End of pink page=home ***************************/
+
+
+/*************** Start of green page=home ***************************/
+
+#page #body #content ul#featured li.green{
+    background: url("../images/green-body1.png");
+    background-position: right;
+    background-repeat:no-repeat;   
+    width:765px;
+    height:687px;
+    list-style-type:none;
+}
+
+#page #body #content ul#featured li.green h2{
+    margin:0 0 0 -20px;
+    padding:75px 0 10px 60px;
+    color:#ffffff;
+    font-size:48px;
+    font-family: Arial;
+}
+#page #body #content ul#featured li.green h2 a{
+    color:#ffffff;
+    font-size:48px;
+    font-family: Arial;
+    text-decoration:none;
+}
+#page #body #content ul#featured li.green h2 a img{
+    border:0;
+}
+
+#page #body #content ul#featured li.green #para p{
+    margin:200px 0 0 50px;
+    padding:0;
+    width:680px;
+    font-family: helvetica;
+    font-size:16px;
+    color:black;
+}
+#page #body #content ul#featured li.green #para p a{
+    color:#ffffff;
+}
+#page #body #content ul#featured li.green #para p a:hover{
+    color:#ffffff;
+}
+
+#page #body #content ul#featured li.green ul{
+    list-style-type:none;
+    margin:40px 0 0 0;
+    padding:0;
+}
+
+#page #body #content ul#featured li.green ul li{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background:none;
+    height:40px;
+    width:260px;
+    color:black;
+} 
+
+
+#page #body #content ul#featured li.green ul li a{
+    display:block;
+    text-decoration:none;
+    background: url("../images/green.gif");
+    width: 260px; 
+    height: 40px;
+    background-repeat:no-repeat; 
+
+    padding: 0 0 0 50px;
+    line-height:40px;
+    color:#000000;
+}
+#page #body #content ul#featured li.green ul li a:hover{
+    text-decoration:none;
+    background: url("../images/green-hover.gif");
+    width: 260px; 
+    height: 40px;
+    background-repeat:no-repeat; 
+    color:#000000;
+}
+
+#page #body #content ul#featured li.green ul li.first{
+    position:relative;
+    left:200px;
+}
+
+#page #body #content ul#featured li.green ul li.second{
+    position:relative;
+    left:230px;
+}
+
+#page #body #content ul#featured li.green ul li.third{
+    position:relative;
+    left:245px;
+}
+
+#page #body #content ul#featured li.green ul li.last{
+    position:relative;
+    left:245px;
+}
+
+
+
+
+#page #body #content ul.featured {
+    list-style-type:none;
+    margin:0;
+    padding:0;  
+
+}
+
+
+
+/*************** End of green page=home ***************************/
+
+
+/*************** Start of blue page=home ***************************/
+
+#page #body #content ul#featured li.blue{
+    background: url("../images/blue-body.png");
+    background-position: right;
+    background-repeat:no-repeat;   
+    width:816px;
+    height:1518px;
+    list-style-type:none;
+}
+
+
+
+
+#page #body #content ul#featured li.blue h2{
+    margin:0 0 0 0;
+    padding:175px 0 10px 60px;
+    color:#000000;
+    font-size:48px;
+    font-family: Arial;
+}
+#page #body #content ul#featured li.blue h2 a{
+    color:#38fd00;
+    font-size:48px;
+    font-family: Arial;
+    text-decoration:none;
+}
+#page #body #content ul#featured li.blue h2 a img{
+    border:0;
+}
+
+#page #body #content ul#featured li.blue p{
+    margin:20px 0 0 60px;
+    padding:0;
+    width:680px;
+    font-family: helvetica;
+    font-size:16px;
+}
+#page #body #content ul#featured li.blue p a{
+    color:#000000;
+}
+#page #body #content ul#featured li.blue p a:hover{
+    color:#000000;
+}
+
+#page #body #content ul#featured li.blue ul{
+    list-style-type:none;
+    margin:20px 0 0 60px;
+    padding:0;
+}
+
+#page #body #content ul#featured li.blue ul li{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background:none;
+    height:40px;
+    width:227px;
+} 
+
+
+#page #body #content ul#featured li.blue ul li a{
+    display:block;
+    text-decoration:none;
+    background: url("../images/blue.gif");
+    width: 227px; height: 40px;
+    background-repeat:no-repeat; 
+    height:40px;
+    width:177px;
+    padding: 0 0 0 50px;
+    line-height:40px;
+    color:#000000;
+}
+#page #body #content ul#featured li.blue ul li a:hover{
+    text-decoration:none;
+    background: url("../images/blue-hover.gif");
+    width: 227px; height: 40px;
+    background-repeat:no-repeat; 
+    color:#000000;
+}
+
+#page #body #content ul#featured li.blue ul li.first{
+
+}
+
+#page #body #content ul#featured li.blue ul li.second{
+    position:relative;
+    left:15px;   
+}
+
+#page #body #content ul#featured li.blue ul li.third{
+    position:relative;
+    left:30px;
+}
+
+#page #body #content ul#featured li.blue ul li.last{
+    position:relative;
+    left:45px;
+}
+
+
+
+
+#page #body #content ul.featured {
+    list-style-type:none;
+    margin:0;
+    padding:0;  
+
+}
+
+
+/*************** End of blue page=home ***************************/
+
+
+
+/*************** Start of yellow page=home ***************************/
+
+#page #body #content ul#featured li.yellow{
+    background: url("../images/yellow-body.png");
+    background-position: right;
+    background-repeat:no-repeat;   
+    width:790px;
+    height:854px;
+    list-style-type:none;
+}
+
+
+
+
+#page #body #content ul#featured li.yellow h2{
+    margin:0 0 0 0;
+    padding:75px 0 10px 60px;
+    color:#38fd00;
+    font-size:48px;
+    font-family: Arial;
+}
+#page #body #content ul#featured li.yellow h2 a{
+    color:#38fd00;
+    font-size:48px;
+    font-family: Arial;
+    text-decoration:none;
+}
+#page #body #content ul#featured li.yellow h2 a img{
+    border:0;
+
+}
+
+
+#page #body #content ul#featured li.yellow p{
+    margin:20px 0 0 60px;
+    padding:0;
+    width:710px;
+    font-family: helvetica;
+    font-size:16px;
+}
+#page #body #content ul#featured li.yellow p a{
+    color:#ffffff;
+}
+#page #body #content ul#featured li.yellow p a:hover{
+    color:#d065a9;
+}
+
+#page #body #content ul#featured li.yellow ul{
+    list-style-type:none;
+    margin:20px 0 0 60px;
+    padding:0;
+}
+
+#page #body #content ul#featured li.yellow ul li{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background:none;
+    height:40px;
+    width:227px;
+    text-align:left;
+} 
+
+
+#page #body #content ul#featured li.yellow ul li a{
+    display:block;
+    text-decoration:none;
+    background: url("../images/yellow.gif");
+    width: 227px; height: 40px;
+    background-repeat:no-repeat; 
+
+    padding: 0 0 0 50px;
+    line-height:40px;
+    color:#ffffff;
+}
+#page #body #content ul#featured li.yellow ul li a:hover{
+    text-decoration:none;
+    background: url("../images/yellow-hover.gif");
+    width: 227px; height: 40px;
+    background-repeat:no-repeat; 
+    color:#d065a9;
+}
+
+#page #body #content ul#featured li.yellow table{
+    margin:50px 0 50px 40px;
+    padding:0;
+    width:750px;
+    font-family: helvetica;
+    font-size:16px;
+    color:#000000;
+}
+
+
+
+#page #body #content ul#featured li.yellow table#people td.leftperson{
+
+    float: left;
+    text-align:center;
+    width: 350px;
+}
+
+#page #body #content ul#featured li.yellow table#people td.leftperson h3{
+    font-size:30px;
+    color:#660099;
+}
+#page #body #content ul#featured li.yellow table#people td.rightperson{
+
+    float:right;
+    text-align:center;
+    width:350px;
+}
+
+#page #body #content ul#featured li.yellow table#people td.rightperson h3{
+    font-size:30px;
+    color:#660099;
+}  
+
+
+
+#page #body #content ul#featured li.yellow ul li.first{
+
+}
+
+#page #body #content ul#featured li.yellow ul li.second{
+    position:relative;
+    left:15px;   
+}
+
+#page #body #content ul#featured li.yellow ul li.third{
+    position:relative;
+    left:30px;
+}
+
+#page #body #content ul#featured li.yellow ul li.last{
+    position:relative;
+    left:45px;
+}
+
+
+
+
+#page #body #content ul.featured {
+    list-style-type:none;
+    margin:0;
+    padding:0;  
+
+}
+
+#page #body #content ul.featured li.yellow{
+    background: url("../images/yellow-body.png");
+    background-position: center; 
+    background-repeat:no-repeat;   
+    width:790px;
+    height:578px;
+    list-style-type:none;
+}
+
+/*************** End of yellow page=home ***************************/
+
+
+/**************** StRT OF BEIGE BUTTON STYLES ********************/
+
+
+#sidelink ul li a{
+    display:block;
+    text-decoration:none;
+    background: url("../images/beige.png");
+    width: 250px; height: 45px;
+    background-repeat:no-repeat; 
+    padding: 0 0 0 50px;
+    line-height:40px;
+    color:#000000;
+    font-size:20px;
+    font-family:Helvetica;
+}
+#sidelink ul li a:hover{
+    text-decoration:none;
+    background: url("../images/beige-hover.png");
+    width: 250px; height: 45px;
+    background-repeat:no-repeat; 
+    color:#ff3333;
+}
+
+#sidelink ul li.top{
+    list-style-type:none;
+}
+
+#sidelink ul li.bottom{
+    position:relative;
+    left:30px;   
+    list-style-type:none;
+    /*float: right;*/
+}
+
+
+/********* End of beige button style ****************************/
+
+
+
+
+/********************Start of footer*******************************/
+#footer{
+
+    width:960px;
+    margin:0 auto;
+    text-align:center; 
+    height:100px;
+    line-height:100px;
+}
+
+#footer span{
+    height:100px;
+    line-height:100px;
+    color:#ffffff;
+    font-family: Arial; 
+    font-size:12px;
+}
+/********************End of footer*******************************/
